@@ -165,10 +165,6 @@ select:focus, textarea:focus, input:focus{
   margin-right: 1px;
 }
 
-.criteria {
-  overflow: scroll;
-}
-
 .runtime{
   display: block;
   margin-top: 10px;

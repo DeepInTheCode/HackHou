@@ -1,3 +1,13 @@
 #genre_criteria {
   display:none;
 }
+
+.movie {
+  height: 250px;
+  overflow: scroll;
+}
+
+.amount {
+  margin-left: 50%;
+  color: red;
+}
