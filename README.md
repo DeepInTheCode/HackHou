@@ -1,4 +1,4 @@
-Houston Fee Schedule Project at the Houston Open Innovation Hackathon
+# Houston Fee Schedule Project at the Houston Open Innovation Hackathon #
 
 Current citywide fee schedule: 
 
