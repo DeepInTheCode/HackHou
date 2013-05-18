@@ -10,14 +10,20 @@ Developer: Antony Wu (antony@meshway.com)
 var csv = require('csv'),
     fs = require('fs'),
     _ = require('underscore'),
-	hackhou = {};
+    masterOptions = {
+        inputFile: '../fee-schedule-master-file-fy13_displayFields.csv',
+        outputFile: 'fee-schedule-master-file-fy13.json'
+    },
+    alcoholOptions = {
+        inputFile: '../alcohol-fee-schedule.csv',
+        outputFile: 'alcohol-fee-schedule.json'
+    };
 
-(function(target) {
+(function(options) {
     var header = null;
     var output = [];
-    var outputFile = 'fee-schedule-master-file-fy13.json';
     csv()
-        .from('../fee-schedule-master-file-fy13_displayFields.csv')
+        .from(options.inputFile)
         .on('record', function(row,index){
             if (index === 0)
                 header = row;
@@ -26,10 +32,10 @@ var csv = require('csv'),
         })
         .on('end', function(count){
             console.log('Number of lines: '+count);
-            fs.writeFile(outputFile, JSON.stringify(output), function (err) {
+            fs.writeFile(options.outputFile, JSON.stringify(output), function (err) {
               if (err) throw err;
               console.log('It\'s saved!');
             });
         });
 
-})(hackhou);
+})(alcoholOptions);
