@@ -37,7 +37,7 @@ var MovieFilter = function(data){
     filter_criteria: {
       genre: ['#genre_criteria input:checkbox:gt(0)', 'genre']
     },
-    and_filter_on: true,
+    and_filter_on: false,
     callbacks: callbacks,
     search: {input: '#searchbox'},
     streaming: {
