@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 TABC Code,PERMIT TYPE,Initial,Renewal
 B,Brewer's Fee - Liquor,750.00,750.00
 BA,Manufacturer - Beer - 1st establishment,375.00,375.00
@@ -70,3 +71,74 @@ V,Wine & Beer Retailer Excursion Boat,65.00,65.00
 W,Wholesale Liquor Dealer,937.50,937.50
 X,General Class B Wholesaler - Liquor ,150.00,150.00
 Z,Wine Bottler,112.50,112.50
+=======
+TABC Code|PERMIT TYPE|Initial|Renewal|TABC Code|PERMIT TYPE|Initial|Renewal
+B|Brewer's Fee - Liquor|750.00|750.00|LB|3rd year with license no fees due to the city|0.00|0.00
+BA|Manufacturer - Beer - 1st establishment|375.00|375.00|LB|4th year with license then city fee due|75.00| 
+BA|Manufacturer - Beer - 2nd establishment|750.00|750.00|LB|5th year and future years with license city fee due||75.00
+BA|Manufacturer - Beer - 3rd, 4th,5th establishment|"2|137.50"|"2|137.50"|LI|Local Industrial Alcohol Manufacturing|50.00|50.00
+BA|Manufacturer - Beer - 6 or more establishments|"4|200.00"|"4|200.00"|LP|Local Distributor - Liquor|50.00|50.00
+BB|General Distributor - Beer|150.00|150.00|LX|Local Class B Wholesale|37.50|37.50
+BC|Branch Distributor - Beer|37.50|37.50|MB|Mixed Beverage TABC Original Issue Year in 2006 or before|375.00|375.00
+BD|Local Distributor - Beer|37.50|37.50|MB|Mixed Beverage TABC Original Issue Year in 2007 or  2008  then the first city fee is due in (2010) or (2011) |750.00|
+BE|Beer Retailer's On Premises in Harris County TABC Original Issue Year Before September 1st 2009|500.00|375.00|MB|Mixed Beverage TABC Original Issue Year 2007 the  RENEWAL fee in 2011 and beyond||375.00
+BE|Beer Retailer's On Premises in Harris County TABC Original Issue Year September 1, 2009 & Beyond then the 1st and 2nd city fee|500.00|500.00|MB|Mixed Beverage TABC Original Issue Year in 2008  Renewal in 2012  ||750.00
+BE|Beer Retailer's On Premises in Harris County TABC Original Issue  Sept 1, 2009 & beyond  then the 3rd city fee & beyond due as RENEWAL||375.00|MB|Mixed Beverage TABC Original Issue Year in 2008  Renewal in 2013  ||375.00
+BE|Beer Retailer's On Premises not in Harris County|75.00|75.00|MB|Mixed Beverage Original Issue Year 2009 & beyond  then the first city fee due  ( example: fee due in 2012 for 2009 original issue) |1125.00|
+BF|Beer Retailer's Off-Premise|30.00|30.00|MB|Mixed Beverage Original Issue Year 2009 & beyond  then the 2nd and 3rd city fee due as a RENEWAL||750.00
+BG|Wine and Beer Retailer's in Harris County TABC Original Issue Year before September 1, 2005|87.50| |MB|Mixed Beverage Original Issue Year 2009 & beyond then the 4th city fee & beyond due as a RENEWAL| |375.00
+BG|Wine and Beer Retailer's in Harris County TABC Original Issue Year Before September 1st 2009|500.00||MI|Mini Bar Original Issue Year in 2009 and beyond 1st year fee and 2nd year fee|"1|000.00"|1000.00
+||||MI|Mini Bar Original Issue Year in 2009 and beyond 3rd year fee and 4th year fee||750.00
+BG|Wine and Beer Retailer's in Harris County TABC Original Issue Year Before September 1st 2009  RENEWAL||375.00|MI|Mini Bar Original Issue Year in 2009 and beyond 5th year fee and 6th year fee||500.00
+BG|Wine and Beer Retailer's in Harris County TABC Original Issue Year September 1, 2009 & Beyond then the 1st and 2nd city fee|500.00|500.00|MI|Mini Bar Original   in 2009 and beyond 7th year fee and future renewals||375.00
+BG|TABC Original Issue Year September 1, 2009 & Beyond then the 3rd city fee due as RENEWAL||375.00|MI|MiniBar Original Issue Year in 2008 or  earlier then 1st yr fee and 2nd yr fee|"1|000.00"|750.00
+BG|Wine and Beer Retailer's not in Harris County|87.50|87.50|MI|MiniBar Original Issue Year in 2008  3rd year fee ||750.00
+BI|Importer - Beer |10.00|10.00||MiniBar Original Issue Year in 2008 4th year fee and 5th year fee||500.00
+BJ|Importer Carrier - Beer|10.00|10.00|MI|MiniBar Original Issue Year in 2007 or 2006 and earlier then  3rd year fee||500.00
+BL|Retail Dealers On-Premise Late Hours |125.00|125.00|MI|Mini Bar Original Issue Year in 2007 4th year fee||500.00
+||||MI|MiniBar Original Issue in 2007 5th year fee and future renewals||375.00
+BP|Brew Pub|250.00|250.00|MI|MiniBar Original Issue in 2006 or earlier then 4th year fee and future renewals||375.00
+BQ|Wine and Beer Retailer's Off-premises|30.00|30.00|MI|MiniBar Original Issue in 2008 6th year fee and future renewals||375.00
+CB|Caterer's - Mixed Beverage|||MR|Market Research Packager|50.00|50.00
+CB|Original Issue Year no fees due to city|0.00|0.00|MW|Manufacturer's Warehouse License|150.00|150.00
+CB|2nd year with license no fees due to the city|0.00|0.00|P|Liquor Package Store|250.00|250.00
+CB|3rd year with license no fees due to the city|0.00|0.00|PE|Beverage Cartage - Mixed Beverage|10.00|10.00
+CB|4th year with license then city fee due|250.00||PS|Package Store Tasting|12.50|12.50
+CB|5th year and subsequent years with license city fee due||250.00|Q|Wine-only Package Store|37.50|37.50
+D|Distillers and Rectifiers|750.00|750.00|V|Wine & Beer Retailer Excursion Boat|65.00|65.00
+G|Winery|37.50|37.50|W|Wholesale Liquor Dealer|937.50|937.50
+J|Bonded Warehouse - Liquor|75.00|75.00|X|General Class B Wholesaler - Liquor |150.00|150.00
+LB|Original Issue Year no fees due to city|0.00|0.00|Z|Wine Bottler|112.50|112.50
+LB|2nd year with license no fees due to the city|0.00|0.00||||
+|||||||
+|||||||
+|||||||
+|||||||
+|||||||
+|||||||
+|||||||
+|||||||
+|||||||
+|||||||
+|||||||
+|||||||
+|||||||
+|||||||
+|||||||
+|||||||
+|||||||
+|||||||
+|||||||
+|||||||
+|||||||
+|||||||
+|||||||
+|||||||
+|||||||
+|||||||
+|||||||
+|||||||
+|||||||
+|||||||
+|||||||
+>>>>>>> added files
