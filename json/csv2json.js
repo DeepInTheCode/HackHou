@@ -38,4 +38,4 @@ var csv = require('csv'),
             });
         });
 
-})(alcoholOptions);
+})(masterOptions);
