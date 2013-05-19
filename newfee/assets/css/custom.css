@@ -1,9 +1,9 @@
 #genre_criteria {
-  display:none;
 }
 
-.movie {
-  height: 250px;
+.thumbnail {
+  height: 350px;
+  background-color: #D3D3D3;
   overflow: scroll;
 }
 

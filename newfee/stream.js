@@ -1,17 +1,32 @@
 jQuery(document).ready(function($) {
 
-  var all_genre = ['ResponsibleDepartment', 'Description', 'StatutoryAuthority', 'AMOUNT']
+  var all_deps = [ 'PWE',
+  'Health and Human Services',
+  'Houston Airport System',
+  'City Secretary',
+  'Department of Neighborhoods',
+  'Library',
+  'Administration and Regulatory Affairs',
+  'Finance',
+  'Parks and Recreation',
+  'Police',
+  'Municipal Courts Department',
+  'Solid Waste Management',
+  'Fire',
+  'Planning and Development',
+  'Mayor Office',
+  'City Controller' ];
   var genre_template = Mustache.compile($.trim($("#genre_template").html()))
       ,$genre_container = $('#genre_criteria') 
 
-  $.each(all_genre, function(i, g){
+  $.each(all_deps, function(i, g){
     $genre_container.append(genre_template({genre: g}));
   });
 
   
 
-  $.each(Movies, function(i, m){ m.id = i+1; });
-  window.mf = MovieFilter(Movies);
+  $.each(master_fees, function(i, m){ m.id = i+1; });
+  window.mf = MovieFilter(master_fees);
 
   $('#genre_criteria :checkbox').prop('checked', true);
   $('#all_genre').on('click', function(e){
@@ -35,11 +50,11 @@ var MovieFilter = function(data){
 
   options = {
     filter_criteria: {
-      genre: ['#genre_criteria input:checkbox:gt(0)', 'genre']
+      genre: ['#genre_criteria input:checkbox:gt(0)', 'ResponsibleDepartment']
     },
-    and_filter_on: false,
+    and_filter_on: true,
     callbacks: callbacks,
-    search: {input: '#searchbox'},
+    search: {input: '#searchbox'}/*,
     streaming: {
       data_url: 'data/top_movies_data.json', 
       stream_after: 1,
@@ -57,7 +72,7 @@ var MovieFilter = function(data){
         $('#stream_progress').text(percent + '%').attr('style', 'width: '+ percent +'%;');
         if (percent == 100) $('#stream_progress').parent().fadeOut(1000);
       }
-    }
+    }*/
   }
 
   return FilterJS(data, "#movies", view, options);

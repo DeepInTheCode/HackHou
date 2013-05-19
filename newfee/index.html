@@ -26,7 +26,7 @@
         </div>
         
         <div class="criteria" id="genre_criteria">
-          <h4>Genre</h4>
+          <h4>Responsible Department</h4>
           <div class="checkbox">
             <label>
               <input type="checkbox" value='All' id="all_genre"> All
@@ -39,13 +39,10 @@
       <script id="template" type="text/html">
         <div class="col-span-4 movie">
                   <div class="thumbnail">
-                    <span class="label label-success rating">{{rating}}
-                      <i class="glyphicon glyphicon-star"></i>
-                    </span>
+                    <span class="label label-success rating">{{AMOUNT}}</span>
                     <div class="caption">
-                      <h4>{{name}}</h4>
+                      <h4>{{Name}}</h4>
                       <div class="detail">
-                        <span class="amount">{{AMOUNT}}</span>
                         <dl>
                           <dt>Description</dt>
                           <dd>{{Description}}</dd>
