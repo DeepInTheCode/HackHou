@@ -18,23 +18,23 @@
       <h1 class="title">City Fee Schedule</h1>
       <div class="sidebar col-span-3">
         <div class="row">
-          <h4 class="col-span-6"> Fees (<span id="total_movies">1905</span>)</h4>
+          <h4 class="col-span-6"> Fees (<span id="total_fees">0</span>)</h4>
         </div>
         <div>
           <input type="text" id="searchbox" placeholder="Search...">
           <span class="glyphicon glyphicon-search search-icon"></span>
         </div>
         
-        <div class="criteria" id="genre_criteria">
+        <div class="criteria" id="dept_criteria">
           <h4>Responsible Department</h4>
           <div class="checkbox">
             <label>
-              <input type="checkbox" value='All' id="all_genre"> All
+              <input type="checkbox" value='All' id="all_dept"> All
             </label>
           </div>
         </div>
       </div>
-      <div class="movies content col-span-9" id="movies">
+      <div class="fees content col-span-9" id="fees">
       </div>
       <script id="template" type="text/html">
         <div class="col-span-4 movie">
@@ -56,7 +56,7 @@
                   </div>
                 </div>
       </script>
-      <script id="genre_template" type="text/html">
+      <script id="depts_template" type="text/html">
         <div class="checkbox">
           <label>
             <input type="checkbox" value="{{dept}}"> {{dept}}
